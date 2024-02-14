@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>TO add friend</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+
+    }
+     body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+ }
+ #card{
+    height: 500px;
+    width: 350px;
+    background-color:#fff;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+ #card img{
+    height: 50%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    padding: 10px;
+
+ }
+  #card h1{
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+  }
+   #card h5{
+    font-size: 30px;
+    color: red;
+    text-align: center; 
+    margin-bottom: 30px;
+}
+ #card button{
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+     font-weight: 500px;
+     text-align:right;
+     margin-top: 10px;
+     margin-left: 60px;
+     
+ }
+  #card #remove{
+    background-color: #dadada;
+    color: black;
+
+     
+  }
+  #card #add{
+    color: #fff;
+    background-color: cornflowerblue;
+    padding: 10px;
+    
+    margin: 10px;
+    border-radius: 5px;
+
+  }
+</style>
+<body>
+    <div id="card">
+     <img src="istockphoto-1294339577-612x612.jpg" alt="profile pic">
+      
+     <h1> Natasha </h1>
+      <h5>strangers</h5>
+
+     <div id="btn-container">
+        <button id="remove"> Remove </button>
+        <button id="add"> Add friend </button>
+     </div> 
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
